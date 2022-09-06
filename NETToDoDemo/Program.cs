@@ -19,7 +19,7 @@ if (builder.Environment.EnvironmentName == "Development") {
 }
 else
 {
-    var host = Environment.GetEnvironmentVariable("PGHOST");
+    var host = Environment.GetEnvironmentVariable("PGHOST") + ":" + Environment.GetEnvironmentVariable("PGPORT");
     var database = Environment.GetEnvironmentVariable("PGDATABASE");
     var user = Environment.GetEnvironmentVariable("PGUSER");
     var password = Environment.GetEnvironmentVariable("PGPASSWORD");
