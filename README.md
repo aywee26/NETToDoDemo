@@ -2,7 +2,7 @@
 
 An educational project by Cristopher Coronado (@cristofima), modified slightly so it can be hosted on Railway.
 
-And it is live! [Check it out!](nettododemo.up.railway.app)
+And it is live! [Check it out!](https://nettododemo.up.railway.app)
 
 # References
 
